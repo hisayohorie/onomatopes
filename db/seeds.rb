@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Word.create!(onomatope: "buruburu", definition: "Shivering the body because of the cold")
+Word.create!(onomatope: "sukkiri", definition: "Clean and clear" )
+Word.create!(onomatope: "girigiri", definition: "At the last moment; just barely")
+Word.create!(onomatope: "mechakucha", definition: "chaotic, extreme, incoherent, reckless")
+Word.create!(onomatope: "noronoro", defitinion: "very slowly, sluggishly")
