@@ -1,1 +1,8 @@
-<h1>word index<h1>
+<h1>word index</h1>
+<ul>
+<% @words.each do |word| %>
+
+  <li><%= word.onomatope %></li>
+
+<% end %>
+</ul>
