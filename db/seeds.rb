@@ -9,4 +9,4 @@ Word.create!(onomatope: "buruburu", definition: "Shivering the body because of t
 Word.create!(onomatope: "sukkiri", definition: "Clean and clear" )
 Word.create!(onomatope: "girigiri", definition: "At the last moment; just barely")
 Word.create!(onomatope: "mechakucha", definition: "chaotic, extreme, incoherent, reckless")
-Word.create!(onomatope: "noronoro", defitinion: "very slowly, sluggishly")
+Word.create!(onomatope: "noronoro", definition: "very slowly, sluggishly")
