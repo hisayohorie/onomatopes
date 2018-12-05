@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181130230456) do
+ActiveRecord::Schema.define(version: 20181205184817) do
 
   create_table "words", force: :cascade do |t|
     t.string "onomatope"
     t.text "definition"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "yomi"
   end
 
 end
