@@ -1,2 +1,7 @@
 <h1><%= @word.onomatope %></h1>
 <p><%= @word.definition %></p>
+<ul>
+<% @word.examples.each do |example| %>
+  <li><%= example.jp_sentence %></li>
+<% end %>
+</ul>

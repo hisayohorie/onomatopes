@@ -1,3 +1,3 @@
 class Word < ApplicationRecord
-  has_many :example
+  has_many :examples
 end
